@@ -36,6 +36,7 @@
       <main class="wrapper">
         <h2>Recommended</h2>
 
+        <!-- CARROTS -->
         <div class="recommended">
           <div class="card">
             <div class="card-title">Carrots</div>
@@ -73,6 +74,7 @@
             </div>
           </div>
 
+          <!-- PINEAPPLES -->
           <div class="card">
             <div class="card-title">Pineapples</div>
             <div class="card-body">
@@ -107,6 +109,7 @@
             </div>
           </div>
 
+          <!-- CHERRIES -->
           <div class="card">
             <div class="card-title">Cherries</div>
             <div class="card-body">
@@ -146,7 +149,7 @@
       <footer></footer>
     </div>
 
-    <!-- <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vue@next"></script>
     <script>
       let app = Vue.createApp({
         data() {
@@ -154,24 +157,24 @@
             inventory: {
               carrots: 0,
               pineapples: 0,
-              cherries: 0
+              cherries: 0,
             },
             cart: {
               carrots: 0,
               pineapples: 0,
-              cherries: 0
-            }
-          }
+              cherries: 0,
+            },
+          };
         },
         methods: {
           addToCart(type) {
-            this.cart[type] += this.inventory[type]
-            console.log(this.cart)
-          }
-        }
-      })
+            this.cart[type] += this.inventory[type];
+            console.log(this.cart);
+          },
+        },
+      });
 
-      app.mount('#app')
-    </script> -->
+      app.mount("#app");
+    </script>
   </body>
 </html>
